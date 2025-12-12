@@ -24,7 +24,7 @@ resampy>=0.4.2
 scikit-learn
 tensorboard
 tqdm>=4.63.1
-tornado>=6.1
+tornado>=6.5.3
 Werkzeug>=2.2.3
 uc-micro-py>=1.0.1
 sympy>=1.11.1
@@ -47,3 +47,4 @@ torchfcpe
 ffmpy==0.3.1
 python-dotenv>=1.0.0
 av
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
