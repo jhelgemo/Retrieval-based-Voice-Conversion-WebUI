@@ -28,3 +28,4 @@ gradio
 noisereduce
 onnxruntime-directml
 torchfcpe
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
