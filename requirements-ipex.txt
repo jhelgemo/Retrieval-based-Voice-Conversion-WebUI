@@ -28,7 +28,7 @@ resampy>=0.4.2
 scikit-learn
 tensorboard
 tqdm>=4.63.1
-tornado>=6.1
+tornado>=6.5.3
 Werkzeug>=2.2.3
 uc-micro-py>=1.0.1
 sympy>=1.11.1
@@ -53,3 +53,4 @@ av
 PySimpleGUI
 sounddevice<0.5.0
 torchfcpe
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
