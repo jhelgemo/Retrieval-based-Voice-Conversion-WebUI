@@ -53,3 +53,4 @@ av
 PySimpleGUI
 sounddevice<0.5.0
 torchfcpe
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
