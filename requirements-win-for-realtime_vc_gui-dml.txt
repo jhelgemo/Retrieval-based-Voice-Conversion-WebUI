@@ -28,3 +28,6 @@ gradio
 noisereduce
 onnxruntime-directml
 torchfcpe
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+python-multipart>=0.0.22 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
